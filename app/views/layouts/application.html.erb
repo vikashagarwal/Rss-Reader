@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	  <title>RssReader</title>
+	  <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true %>
+	  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+	  <%= csrf_meta_tags %>
+	</head>
+	<body>
+    <%= render 'layouts/header' %>
+		<%= content_tag :div, id: "wrapper", role: "main" do %>    
+	  	<%= content_tag :div, class: "container body_container" do %>    
+        <%= yield %> 
+	    <% end %>
+	  <% end %>
+	</body>
+</html>
