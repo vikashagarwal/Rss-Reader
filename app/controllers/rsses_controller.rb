@@ -1,5 +1,3 @@
-require 'open-uri'
-
 class RssesController < ApplicationController
 	before_action :all_rss
   before_action :set_rss, only: [:edit, :update, :destroy]
