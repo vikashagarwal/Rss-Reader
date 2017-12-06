@@ -49,7 +49,7 @@ end
 gem 'awesome_print'
 gem 'annotate'
 gem 'responders', '~> 2.0'
-gem 'nokogiri'
+gem 'nokogumbo'
 gem 'sidekiq'
 gem "sidekiq-cron", "~> 0.6.3"
 gem 'whenever'
