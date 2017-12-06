@@ -1,6 +1,6 @@
 <%= form_for @rss, remote: true do |f|   %>
   <div>
   	<%= f.text_field :rss_url, style: 'width:60%', required: true %>
-  	<%= f.button :submit, class: 'btn btn-success' %>
+  	<%= f.button :save, class: 'btn btn-sm btn-outline-success' %>
 	</div>
 <% end %>
