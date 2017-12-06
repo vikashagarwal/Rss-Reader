@@ -1,5 +1,5 @@
 <tr>
 	<td><%= rss.rss_url %></td>
-	<td><%= link_to edit_rss_path(rss), remote: true do %><button class='btn btn-primary'>Edit</button><% end %>
-			<%= link_to rss, remote: true, method: :delete,  data: { confirm: 'Are you sure?' } do %><button class='btn btn-danger'>Delete!</button><% end %></td>
+	<td><%= link_to edit_rss_path(rss), remote: true do %><button class='btn btn-sm btn-outline-primary'>Edit</button><% end %>
+			<%= link_to rss, remote: true, method: :delete,  data: { confirm: 'Are you sure?' } do %><button class='btn btn-sm btn-outline-danger'>Delete!</button><% end %></td>
 </tr>
