@@ -1,13 +1,13 @@
 <header class='navbar navbar-default navbar-fixed-top bs-docs-nav' role='banner' style='background-color: #6D28AA;'>
   <%= content_tag :div, class: 'container' do %>
 		<a href='/' style='color: #FFF; font-size: 22px; text-decoration: none;'>RSS Reader</a>
+    <div class='col-md-2 col-md-offset-4'>
+      <%= link_to new_rss_path, remote: true do %>
+        <button class='btn btn-sm btn-primary' id='add_rss'>New</button>
+      <% end %>
+      <a href='/feeds'>
+        <button class='btn btn-sm btn-primary'>Feeds</button>
+      </a>
+    </div>
 	<% end %>
-	<div class='col-md-2 col-md-offset-4'>
-    <%= link_to new_rss_path, remote: true do %>
-      <button class='btn btn-sm btn-primary' id='add_rss'>New</button>
-    <% end %>
-    <a href='/feeds'>
-      <button class='btn btn-sm btn-primary'>Feeds</button>
-    </a>
-  </div>
 </header>
