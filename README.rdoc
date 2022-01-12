@@ -35,3 +35,5 @@ rails s
 RAILS_ENV=development rake dev:clear_redis
 RAILS_ENV=development rake dev:restart_sidekiq
 Have created the rss feed links for these urls("http://hosted.ap.org/lineups/USHEADS-rss_2.0.xml?SITE=RANDOM&SECTION=HOME", "http://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml", "http://www1.cbn.com/app_feeds/rss/news/rss.php?section=us", "http://www1.cbn.com/app_feeds/rss/news/rss.php?section=world")
+
+Test commit msg
